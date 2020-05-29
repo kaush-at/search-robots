@@ -1,0 +1,23 @@
+.background {
+  box-sizing: border-box;
+  background-color: seagreen;
+  height: 400px;
+  text-align: center;
+  border-radius: 3px;
+  padding: 3px;
+  margin: 2px;
+}
+
+.background:hover {
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+}
+
+.container {
+  /* display: grid; */
+  /* gap: 5px; */
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /* grid-template-rows: repeat(auto-fill, minmax(250px, 1fr)); */
+}
